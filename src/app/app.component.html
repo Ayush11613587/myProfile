@@ -1,137 +1,54 @@
-<nav class="navbar container navbar-expand-lg bg-body-tertiary fixed-top mx-5">
-  <div class="container-fluid">
-    <a class="navbar-brand font-wight-bold text-light" href="#">AYUSHG</a>
-  </div>
-</nav>
-<div class="container-fluid">
-  <div class="header">
-    <div class="row align-items-center mt-5">
-      <div class="offset-1 col-8">
-        <h1 class="text-light">Ayush Gupta</h1>
-        <h2 class="text-secondary mt-3">
-          I work behind the scenes on the web.
-        </h2>
-        <p class="bio text-secondary">
-          I'm a Software Developer specializing in building performant and
-          scalable backend services. Currently, I'm working as a Software
-          Engineer - II targeting building the backend at
-          <a href="#">HashedIn By Deloitte</a>.
-        </p>
-      </div>
-    </div>
-  </div>
-  <section class="aboutme">
-    <div class="row">
-      <div class="offset-1"><h2>About me:</h2></div>
-    </div>
-   <div class="row about mt-5">
-    <div class="offset-1 col-lg-5 col-md-5">
-      <div>
-        <p>Hello! My name is Ayush and I enjoy building systems for scale.</p>
-        <p>
-          I love building for performance and scale, and I am always open to
-          learn new things(matter of fact, I enjoy that immensely!).<br />But
-          more than that, I aim to build user-centric software with an obsession
-          on performance, which has an quality of life impact on the daily lives
-          of the users of my software.
-        </p>
-        <p>
-          The main pillars and ideology I follow behind the software I build
-          are: usability, scalability, performance, reliablity and
-          maintainablity.
-        </p>
-        <p>
-          Fast-forward to today, and I've had the privilege of working at a few
-          big companies like <a href="#">Capgemini</a> and
-          <a href="#jobs">HashedIn By Deloitte</a>
-        </p>
-        <p>Here is a non-exhaustive list of technologies I've worked with:</p>
-      </div>
-      <ul class="skills-list">
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>Angular</li>
-        <li>GraphQL</li>
-        <li>SQL</li>
-        <li>Cassandra</li>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand navbar-left text-light ms-5" href="#">
+      <img src="/assets/images/logo.png" class="d-block" width="25px" height="40px" alt="...">
+    </a>
+    <a class="navbar-brand text-light" href="#"><h4 class="text-danger">PENTIAH BAND</h4><h6 class="text-success text-center">Music is Magic</h6></a>
+    <button class="navbar-toggler pe-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-navicon"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  ms-auto me-5">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" [routerLink]="['about']">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" [routerLink]="['feature']">Feature</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" [routerLink]="['history']">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" [routerLink]="['contact']">Contact</a>
+        </li>
       </ul>
     </div>
-    <div class="col-lg-6 col-md-6 image">
-      <img
-        src="/assets/images/my.jpeg"
-        class="rounded"
-        height="70%"
-        width="60%"
-      />
-      <div class="shadow"></div>
-    </div>
-   </div>
-  </section>
-  <section class="education mt-5">
-    <div class="row">
-      <div class="offset-1"><h2>Where i worked:</h2></div>
-    </div>
-
-    <div class="tabs mt-5 row">
-      <div role="tablist" class="tablist offset-1 col-4" aria-label="Job tabs">
-        <button role="tab" aria-controls="panel-1" id="tab-1" aria-selected="true" class="tabbutton mt-5" tabindex="0">
-          Capgemini
-        </button>
-        <button role="tab" aria-controls="panel-2" id="tab-2" aria-selected="false" class="tabbutton mt-5" tabindex="-1" >
-          Hashedin By Deloitte
-        </button>
-      </div>
-      <div class="tab-content offset-1 col">
-        <div id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1" aria-hidden="false" class="fade-enter-done">
-          <h3>
-            <span>Associate Consultant</span>
-            <span class="company">&nbsp;@&nbsp;<a href="https://www.capgemini.in/" class="inline-link" rel="noopener noreferrer" target="_blank">Capgemini</a></span>
-          </h3>
-          <p class="range">August 2020 - March 2023</p>
-          <div>
-            <ul>
-              <li>
-                Developed Proofs of Concepts and performed performance, load and
-                feasibility testing.
-              </li>
-              <li>
-                Set up reporting and metrics dashboards using prometheus and
-                grafana, along with alerting setups on the same.
-              </li>
-              <li>
-                Organized and conducted regular knowledge sharing sessions with
-                the team leading to upskilling of the team, as well as breaking
-                up knowledge silos.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div id="panel-2" role="tabpanel" tabindex="-1" aria-labelledby="tab-2" aria-hidden="true" class="fade-exit-done">
-          <h3>
-            <span>SOftware Engineer - II</span>
-            <span class="company"
-              >&nbsp;@&nbsp;<a href="https://www.hashedin.in/" class="inline-link" rel="noopener noreferrer" target="_blank" >Hashed In By Deloitte</a></span>
-          </h3>
-          <p class="range">August 2022 - Present</p>
-          <div>
-            <ul>
-              <li>
-                Developed Proofs of Concepts and performed performance, load and
-                feasibility testing.
-              </li>
-              <li>
-                Set up reporting and metrics dashboards using prometheus and
-                grafana, along with alerting setups on the same.
-              </li>
-              <li>
-                Organized and conducted regular knowledge sharing sessions with
-                the team leading to upskilling of the team, as well as breaking
-                up knowledge silos.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+</nav>
+<div>
+<router-outlet></router-outlet>
 </div>
+<footer>
+  <hr>
+  <div class="mt-5 row text-center">
+      <div class="social">
+  <a class="ms-2" href="" target="_blank"><img  src="https://www.mahulfolk.com/images/social-icons/facebook.png" alt="Facebook" title="Facebook"></a>
+  <a class="ms-2" href="" target="_blank"><img  src="https://www.mahulfolk.com/images/social-icons/youtube.png" alt="Youtube" title="Youtube"></a>
+  <a class="ms-2" href="" target="_blank"><img  src="https://www.mahulfolk.com/images/social-icons/twitter.png" alt="Twitter" title="Twitter"></a>
+  <a class="ms-2" href="" target="_blank"><img  src="https://www.mahulfolk.com/images/social-icons//amazon.png" alt="Amazon" title="Amazon"></a>
+  <a class="ms-2" href="" target="_blank"><img  src="https://www.mahulfolk.com/images/social-icons//itunes.png" alt="iTunes" title="iTunes"></a>
+  <a class="ms-2" href="" target="_blank"><img  src="https://www.mahulfolk.com/images/social-icons//instagram.png" alt="Instagram" title="Instagram"></a>
+</div></div>
+  <div class="clearfix"></div>
+  <br>
+  <div class="row text-center">
+  <div style="float:right;">
+  <a [routerLink]="['contact']">Contact Us</a> &nbsp;&nbsp;&nbsp;PENTIAH Band
+ </div>
+  
+  <div class="clearfix"></div>
+  </div>
+  </footer>
+
+<!--© Copyright 2023 - -->

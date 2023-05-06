@@ -1,0 +1,42 @@
+{
+  "images": [
+    { "picture": "/assets/images/pentiah_2.JPG" },
+    { "picture": "/assets/images/pentiah_3.JPG" },
+    { "picture": "/assets/images/pentiah_4.JPG" },
+    { "picture": "/assets/images/pentiah_5.JPG" },
+    { "picture": "/assets/images/pentiah_6.JPG" }
+  ],
+  "pentiahInNews": [
+    { "picture": "/assets/images/pentiah_1.JPG" }
+  ],
+  "videos": [
+    { "url": "https://www.youtube.com/embed/5LjMJVEdeFk" },
+    { "url": "https://www.youtube.com/embed/BPCzHZ-wiSE" },
+    { "url": "https://www.youtube.com/embed/PGWDCgX3xNc" },
+    { "url": "https://www.youtube.com/embed/WO_aewfp76U" },
+    { "url": "https://www.youtube.com/embed/PcDpN0Japj8" },
+    { "url": "https://www.youtube.com/embed/CF6DdVolpeE" }
+  ],
+  "performanceHome" : [
+    {
+      "description":
+        "Proin enim enim, cursus a aliquet ac, eleifend placerat odio. Ut vitae sem metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eu vulputate erat, at consequat odio. Morbi molestie mi tempus, mollis lacus in, tincidunt tortor. Suspendisse dignissim mollis sodales. Mauris iaculis hendrerit feugiat. Curabitur nunc est, pellentesque at luctus et, faucibus vitae risus.",
+        "url": "https://www.youtube.com/embed/5LjMJVEdeFk"
+    },
+    {
+      "description":
+        "Proin enim enim, cursus a aliquet ac, eleifend placerat odio. Ut vitae sem metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eu vulputate erat, at consequat odio. Morbi molestie mi tempus, mollis lacus in, tincidunt tortor. Suspendisse dignissim mollis sodales. Mauris iaculis hendrerit feugiat. Curabitur nunc est, pellentesque at luctus et, faucibus vitae risus.",
+        "url": "https://www.youtube.com/embed/BPCzHZ-wiSE"
+    },
+    {
+      "description":
+        "Proin enim enim, cursus a aliquet ac, eleifend placerat odio. Ut vitae sem metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eu vulputate erat, at consequat odio. Morbi molestie mi tempus, mollis lacus in, tincidunt tortor. Suspendisse dignissim mollis sodales. Mauris iaculis hendrerit feugiat. Curabitur nunc est, pellentesque at luctus et, faucibus vitae risus.",
+        "url": "https://www.youtube.com/embed/BPCzHZ-wiSE"
+    },
+    {
+      "description":
+        "Proin enim enim, cursus a aliquet ac, eleifend placerat odio. Ut vitae sem metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eu vulputate erat, at consequat odio. Morbi molestie mi tempus, mollis lacus in, tincidunt tortor. Suspendisse dignissim mollis sodales. Mauris iaculis hendrerit feugiat. Curabitur nunc est, pellentesque at luctus et, faucibus vitae risus.",
+        "url": "https://www.youtube.com/embed/BPCzHZ-wiSE"
+    }
+  ]
+}

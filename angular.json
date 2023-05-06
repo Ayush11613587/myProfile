@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "myProfile": {
+    "pentiah": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-profile",
+            "outputPath": "dist/pentiah",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,7 +27,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -69,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "myProfile:build:production"
+              "browserTarget": "pentiah:build:production"
             },
             "development": {
-              "browserTarget": "myProfile:build:development"
+              "browserTarget": "pentiah:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "myProfile:build"
+            "browserTarget": "pentiah:build"
           }
         },
         "test": {
@@ -103,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "myProfile"
+  "defaultProject": "pentiah"
 }
