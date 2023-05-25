@@ -4,7 +4,7 @@
   color: #fff;
   display: flex;
   align-items: center;
-  background-image: url(https://www.apexsystems.com/sites/default/files/media-images/DigitalInnovation_AI_Hero.jpg);
+  background-image: url(/assets/images/home_banner.png);
   background-color: #0a192f;
   background-size: cover;
 }
