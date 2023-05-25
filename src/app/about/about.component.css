@@ -6,7 +6,7 @@
   align-items: center;
     background-image: url(	https://www.apexsystems.com/sites/default/files/media-images/Apex%20Hero%20Image%20v07_hero.jpg);
     background-color: #0a192f;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .banner-title{
     font-weight: bolder;

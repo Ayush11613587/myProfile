@@ -6,7 +6,7 @@
   align-items: center;
   background-image: url(/assets/images/home_banner.png);
   background-color: #0a192f;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .banner-content {
   width: 50%;
