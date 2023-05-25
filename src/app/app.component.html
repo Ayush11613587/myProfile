@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand ms-5 text-light" href="#"><h4 class="text-danger">Consultancy</h4></a>
-  <button class="navbar-toggler pe-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fa fa-navicon"></i>
+  <button class="navbar-toggler me-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav  ms-auto me-5">
@@ -9,13 +9,13 @@
         <a class="nav-link text-light" href="">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" [routerLink]="['consultants']">Consultants</a>
+        <a class="nav-link text-light" [routerLink]="['consultants']" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Consultants</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" [routerLink]="['about']">About</a>
+        <a class="nav-link text-light" [routerLink]="['about']" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" [routerLink]="['contact']">Contact</a>
+        <a class="nav-link text-light" [routerLink]="['contact']" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Contact</a>
       </li>
     </ul>
   </div>
