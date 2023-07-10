@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { default as data } from '../../assets/database/db.json';
 
 @Component({
   selector: 'app-home',
@@ -7,8 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  images:any= ["picture1","picture2","picture3"
-  ]
+  technologies:any = data.technologies;
   constructor() { }
 
   ngOnInit(): void {

@@ -1,0 +1,46 @@
+<div class="banner">
+    <div class="banner-content">
+    <h2 class="ms-5 banner-title">Reimagine Your Career</h2>
+    <h3 class="ms-5 banner-sub-title">The Heart of Global AI Talent Solutions is Our People</h3>
+</div>
+</div>
+<div class="mt-5 row text-center">
+    <span class="mt-4 main-content">Whether you're a seasoned consultant or just getting started on your journey - we are here to be your career partner.</span>
+</div>
+<div class="container">
+    <div>
+        <div *ngIf="detailsSubmitted" class="alert alert-success" role="alert">
+            Details submitted successfully!!
+            <button type="button" class="btn btn-close float-right" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        <form [formGroup]="detailForm" (ngSubmit)="onSubmit()">
+            <p class="text-danger">All fields are mandatory!!</p>
+            <div class="form-group mt-3">
+                <input type="text" class="form-control" formControlName="uname" placeholder="Your Name">
+                <div *ngIf="submitted || (detailForm.controls['uname'].dirty || detailForm.controls['uname']?.touched)" class=" text-danger">
+                    <div *ngIf="detailForm.controls['uname'].errors?.['required']">
+                        Name is required.
+                    </div>
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <input type="text" class="form-control" formControlName="uemail" placeholder="Your Email">
+                <div *ngIf="submitted || (detailForm.controls['uemail'].dirty || detailForm.controls['uemail']?.touched)" class=" text-danger">
+                    <div *ngIf="detailForm.controls['uemail'].errors?.['required']">
+                        Email is required.
+                    </div>
+                    <div *ngIf="detailForm.controls['uemail'].errors?.['email']">Email must be a valid email address</div>
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <input type="text" class="form-control" formControlName="uphone" placeholder="Phone Number">
+                <div *ngIf="submitted || (detailForm.controls['uphone'].dirty || detailForm.controls['uphone']?.touched)" class=" text-danger">
+                    <div *ngIf="detailForm.controls['uphone'].errors?.['required']">
+                        Phone Number is required.
+                    </div>
+                </div>
+            </div>
+            <button type="submit"  class="mt-3 btn btn-success text-light btn-lg" value="Submit Your Message">Submit your message</button>
+        </form>
+        </div>
+</div>

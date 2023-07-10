@@ -3,8 +3,8 @@
     width: 100%;
     color: #fff;
     display: flex;
-  align-items: center;
-    background-image: url(	https://www.apexsystems.com/sites/default/files/media-images/Apex%20Hero%20Image%20v07_hero.jpg);
+    align-items: center;
+    background-image: url('/assets/images/About_banner.jpg');
     background-color: #0a192f;
     background-size: 100% 100%;
 }
@@ -45,11 +45,20 @@ p{
 .content-side{
     align-items: center;
 }
+.content-image{
+  height: 30rem;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
 img{
-    vertical-align: middle;
-    border-style: none;
-    width: 100%;
-    height: auto;
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
 }
 .working-with{
     background-color: rgba(165,165,167,0.05);
@@ -65,6 +74,16 @@ img{
     width: fit-content;
     text-align: center;
 }
+.nbs-flexisel-item {
+    float: left;
+    margin: 0px;
+    width: 290px;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+    line-height: 16px;
+  }
+
 @media (max-width: 750px) {
     .banner-title{
         font-weight: bold;
@@ -75,6 +94,9 @@ img{
         font-size: 20px;
         line-height: 150%;
     }
+    p{
+        font-size: 15px;
+    }
 }
 @media (min-width: 750px) and (max-width: 1024px) {
     .banner-title{
@@ -82,3 +104,95 @@ img{
         width: 60%;
     }
 }
+
+
+
+
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.carousel-control { 
+    width: 8%;
+    width: 0px;
+}
+.carousel-control.left,
+.carousel-control.right { 
+    margin-right: 40px;
+    margin-left: 32px; 
+    background-image: none;
+    opacity: 1;
+}
+.carousel-control > a > span {
+    color: white;
+	  font-size: 29px !important;
+}
+
+.carousel-col { 
+    position: relative; 
+    min-height: 1px; 
+    padding: 5px; 
+    float: left;
+ }
+
+ .active > div { display:none; }
+ .active > div:first-child { display:block; }
+
+ 
+/*xs*/
+@media (max-width: 767px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 50%; }
+	.active > div:first-child + div { display:block; }
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 50%; }
+	.active > div:first-child + div { display:block; }
+}
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel-inner .active.left { left: -33%; }
+  .carousel-inner .active.right { left: 33%; }
+	.carousel-inner .next        { left:  33%; }
+	.carousel-inner .prev		     { left: -33%; }
+  .carousel-col                { width: 33%; }
+	.active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+}
+
+/*lg*/
+@media (min-width: 1200px) {
+  .carousel-inner .active.left { left: -25%; }
+  .carousel-inner .active.right{ left:  25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		     { left: -25%; }
+  .carousel-col                { width: 25%; }
+	.active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+	.active > div:first-child + div + div + div { display:block; }
+}
+
+.block {
+	width: 306px;
+	height: 230px;
+}
+
+.red {background: red;}
+
+.blue {background: blue;}
+
+.green {background: green;}
+
+.yellow {background: yellow;}

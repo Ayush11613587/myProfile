@@ -1,0 +1,58 @@
+{
+  "technologies": [
+    {
+      "title": "Artificial Intelligence",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "videoUrl": "/assets/images/Artificial_Intelligence.mp4"
+    },
+    {
+      "title": "Data Analytics",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "videoUrl": "/assets/images/Data_Analytics.mp4"
+    },
+    {
+      "title": "Cyber Security",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "videoUrl": "/assets/images/Cyber_Security.mp4"
+    },
+    {
+      "title": "Cloud",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "videoUrl": "/assets/images/Cloud_computing.mp4"
+    }
+  ],
+  "aboutContent": [
+    {
+      "title": "Delivering Value and Innovation",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "imageUrl": "/assets/images/Delivering_Value_and_Innovation.jpg"
+    },
+    {
+      "title": "Diversity, Equity, and Inclusion",
+      "description": "Our emergent Diversity, Equity, and Inclusion (DEI) goals are established for progression and empower the Values we bring as a world-class technology services firm.",
+      "imageUrl": "/assets/images/Diversity_Equity_and_Inclusion.jpg"
+    },
+    {
+      "title": "Corporate Social Responsibility",
+      "description": "We are invested in creating long-term partnerships that strengthen communities, help tackle social challenges, and solve complex problems.  We encourage employees to explore their passions, business skills, and expertise to make meaningful contributions to the world around them. Click here to learn more about our corporate social responsibility.",
+      "imageUrl": "/assets/images/Corporate_Social_Responsibility.jpg"
+    }
+  ],
+  "services": [
+    {
+      "title": "Salesforce",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "imageUrl": "/assets/images/Salesforce.jpg"
+    },
+    {
+      "title": "Mulesoft",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "imageUrl": "/assets/images/Mulesoft.jpg"
+    },
+    {
+      "title": "Mulesoft",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "imageUrl": "/assets/images/Mulesoft.jpg"
+    }
+  ]
+}

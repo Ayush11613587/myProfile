@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ConsultantsComponent } from './consultants/consultants.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ConsultantsComponent } from './consultants/consultants.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    ConsultantsComponent
+    ConsultantsComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +29,7 @@ import { ConsultantsComponent } from './consultants/consultants.component';
       {path :'contact', component: ContactComponent},  
       {path :'about', component: AboutComponent}, 
       {path :'consultants', component: ConsultantsComponent},
+      {path :'careers', component: CareerComponent},
       {path :'**', component: HomeComponent}
     ]),
   ],

@@ -14,7 +14,7 @@
     color: #fff;
     display: flex;
   align-items: center;
-    background-image: url(https://insightglobal.com/wp-content/uploads/2021/10/IG_Web_Services_Header_v1-1536x640-1.jpg);
+    background-image: url('/assets/images/consultants.jpg');
     background-color: #0a192f;
     background-size: 100% 100%;
 }
@@ -44,11 +44,20 @@ p{
     align-items: center;
     z-index: -1;
 }
+.item-image{
+  height: 30rem;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
 img{
     vertical-align: middle;
     border-style: none;
     width: 100%;
     height: auto;
+    min-height: 100%;
+    object-fit: cover;
 }
 @media (max-width: 750px) {
     .consultant-image-title{

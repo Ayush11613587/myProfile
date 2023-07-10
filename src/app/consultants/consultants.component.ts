@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { default as data } from '../../assets/database/db.json';
 
 @Component({
   selector: 'app-consultants',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConsultantsComponent implements OnInit {
 
+  services:any = data.services;
   constructor() { }
 
   ngOnInit(): void {

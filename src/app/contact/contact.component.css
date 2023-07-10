@@ -4,7 +4,7 @@
     color: #fff;
     display: flex;
     align-items: center;
-    background-image: url(https://www.apexsystems.com/sites/default/files/media-images/Contact-Us-Adjusted_Hero.png);
+    background-image: url('/assets/images/Let_Connect.jpg');
     background-color: #0a192f;
     background-size: 100% 100%;
 }
